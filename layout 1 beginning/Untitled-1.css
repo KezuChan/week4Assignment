@@ -1,0 +1,50 @@
+
+    *{
+      box-sizing: border-box;
+
+      /* number in pixles, zero excluded.
+      Use for CSS notes */
+      margin: 0;
+      padding: 0;
+    }
+    div.container{
+      border: 5px solid red;
+      width: 80%;
+      margin: 0 auto;
+    }
+    header{
+      border: 10px solid blue;
+    }
+    .hero img{
+      width: 100%;
+    }
+    div.left, div.middle, div.right{
+      border: 10px dotted rgb(248, 157, 248);
+      width: 30%;
+      margin: 3%
+    }
+    aside img{
+      width: 100%;
+    }
+    aside{
+      display: flex;
+      justify-content: space-between;
+    }
+    nav{
+      background-color: dimgray;
+    }
+    ul{
+      text-align: center;
+    }
+    li{
+      display: inline-block;
+      width: 50px;
+      border: 2px solid white;
+      line-height: 3em;
+    }
+    a{
+      color: aliceblue;
+      text-decoration: none;
+      border: 1px solid red;
+      display: block;
+    }
